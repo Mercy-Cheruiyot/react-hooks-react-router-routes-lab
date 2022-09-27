@@ -8,7 +8,7 @@ function Actors() {
      actor={actor}/>)
   return <div>
     <h1>Actors Page</h1>
-    {actorsList}
+    <ul>{actorsList}</ul>
   </div>;
   
 }

@@ -8,7 +8,7 @@ function Directors() {
      director={director}/>)
   return <div>
     <h1>Directors Page</h1>
-    {directorsList}
+    <ul>{directorsList}</ul>
   </div>;
 }
 
