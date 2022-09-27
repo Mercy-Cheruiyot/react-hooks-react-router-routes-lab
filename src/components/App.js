@@ -12,7 +12,6 @@ function App() {
       
     <NavBar/>
     <Switch>
-    
     <Route exact path="/actors"><Actors/></Route>
     <Route exact path="/directors"><Directors/></Route>
     <Route exact path="/movies"><Movies/></Route>

@@ -1,7 +1,7 @@
 import React from "react";
 
 function NameMovies(props){
-    const myVar = props.actors || props.director
+    const myVar = props.actor || props.director
 
     const movies = myVar.movies.map(movie =>
         <li key={movie}>{movie}</li>)
